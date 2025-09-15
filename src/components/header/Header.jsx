@@ -19,7 +19,7 @@ function Header() {
     
   return (
     <>
-       <nav className='shadow-md fixed top-0 w-full bg-white h-[4rem] '>
+       <nav className='shadow-md fixed top-0 w-full bg-white h-[4rem] z-10'>
         <div className='flex justify-between py-1 px-6 lg:px-10'>
      
             <div className='flex  items-center'>
