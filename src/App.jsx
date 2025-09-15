@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Layout from './layout'
+import Layout from './Layout'
 import HomePage from './components/home/HomePage'
 import AboutUs from './components/about/AboutUs'
 import Schedule from './components/schedule/Schedule'
