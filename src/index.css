@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #131110;
+  --color-primary: #1f3e72;
+  --color-secondary: rgba(255, 255, 255, 0.78);
+  
+  /* --font-family-montserrat: "Montserrat", sans-serif; */
+}
+
+*{
+   font-family: "Poppins", sans-serif;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.custom-nav .swiper-button-next,
+.custom-nav .swiper-button-prev {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.custom-nav-banner .swiper-button-next,
+.custom-nav-banner .swiper-button-prev {
+  width: 30px !important;
+  height: 30px !important;
+  
+}
