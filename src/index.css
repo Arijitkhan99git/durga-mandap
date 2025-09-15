@@ -45,7 +45,9 @@
 
 .custom-nav-banner .swiper-button-next,
 .custom-nav-banner .swiper-button-prev {
-  width: 30px !important;
-  height: 30px !important;
-  
+  width: 20px !important;
+  height: 20px !important;
+  /* background-color: rgb(245, 239, 239);
+  padding: 8px;
+  border-radius: 50%; */
 }
