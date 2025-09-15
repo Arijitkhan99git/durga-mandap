@@ -22,14 +22,13 @@ function PujaDays() {
 
   return (
     <>
-     
-      <div className="w-full max-w-7xl flex flex-col justify-center items-center mx-auto pt-[3rem] pb-[6rem] px-6 text-center">
-        <div className="w-full text-primary flex flex-col items-center gap-2 uppercase">
+      <div className="w-full max-w-7xl flex flex-col justify-center items-center mx-auto py-[1rem] md:py-[2rem]  px-6 text-center ">
+        <div className="w-full text-primary flex flex-col items-center md:gap-2 uppercase">
           <img src={durgaMaa} alt="DurgaMaa" className="w-[8rem]" />
           <h4 className="poppins-medium text-xl tracking-wider">Durga Puja Days</h4>
-          <h1 className="text-3xl poppins-bold tracking-wider">Durga Puja 2025</h1>
+          <h1 className="text-2xl md:text-3xl poppins-bold tracking-wider">Durga Puja 2025</h1>
 
-          <div className="w-full  py-10">
+          <div className="w-full py-10">
             <Swiper className="custom-nav"
               modules={[Autoplay,Navigation]}
               spaceBetween={20}

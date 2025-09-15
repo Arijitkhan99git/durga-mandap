@@ -101,7 +101,7 @@ function Header() {
         </div>  
 
          {/* Mobile Menu*/}
-         <div  className={`${isMenuOpen ? 'block': 'hidden' }  md:hidden bg-gradient-to-r from-gray-300 to-red-300 space-y-2 py-3 px-6`}>             
+         <div  className={`${isMenuOpen ? 'block': 'hidden' }  md:hidden bg-gradient-to-r from-gray-300 to-red-300 space-y-2 py-6 px-6`}>             
             <ul>
                 <li>
                         <NavLink

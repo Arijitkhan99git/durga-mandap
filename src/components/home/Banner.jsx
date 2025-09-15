@@ -22,15 +22,15 @@ function Banner() {
     
 
   return (
-    <>
-    <div className='w-full max-w-7xl  mx-auto overflow-hidden flex flex-col items-center justify-center py-[4rem]'>
+    <div className='w-full bg-gray-200 '>
+    <div className='w-full max-w-7xl  mx-auto overflow-hidden flex flex-col items-center justify-center py-[2rem] '>
         
-        <div className='flex flex-col items-center gap-3'>
-            <img src={dhaki} alt="dhakh" width={100} />
-            <h1 className='text-3xl text-primary poppins-bold '>Image Gallery</h1>
+        <div className='flex flex-col items-center '>
+            <img src={dhaki} alt="dhakh" className='w-[80px] lg:w-[100px]' />
+            <h1 className='text-2xl md:text-3xl text-primary poppins-bold '>Image Gallery</h1>
         </div>
        
-        <div className="w-full py-10 flex items-center justify-center px-6">
+        <div className="w-full py-12 flex items-center justify-center px-6 ">
         <Swiper className="custom-nav-banner rounded-lg"
             modules={[Autoplay,Navigation, EffectCoverflow]}
             spaceBetween={20}
@@ -76,7 +76,7 @@ function Banner() {
         </div>
 
     </div>   
-    </>
+    </div>
     
   )
 }

@@ -9,6 +9,7 @@ function HeadBanner() {
             initial={{x:"5rem", opacity:0}}
             animate={{x:0, opacity:1}}
             transition={{
+                delay:0.5,
                 duration:2,
                 ease:'easeInOut'
             }}
@@ -19,7 +20,7 @@ function HeadBanner() {
                 initial={{y:"5rem", opacity:0}}
                 animate={{y:0, opacity:1}}
                 transition={{
-                    delay:1,
+                    delay:1.5,
                     duration:2,
                     ease:'easeInOut'
                     }}

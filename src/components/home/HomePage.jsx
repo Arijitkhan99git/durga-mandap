@@ -7,7 +7,7 @@ import PujaDays from './PujaDays'
 function HomePage() {
   return (
     <>
-      <div className=' w-full overflow-x-clip bg-gradient-to-r from-orange-100/50 to-blue-100/50 mt-[4rem] pb-5'>
+      <div className=' w-full overflow-x-clip bg-gradient-to-r from-orange-100 to-blue-100 mt-[4rem] pb-5'>
         <HeadBanner></HeadBanner>
 
         
@@ -25,7 +25,7 @@ function HomePage() {
         <PujaDays></PujaDays>
         <Banner></Banner>
 
-        <div className='px-6  flex justify-center gap-5 my-10'>
+        <div className='px-6  flex justify-center gap-5 my-[5rem]'>
             <button className='px-3 py-2 shadow-lg border border-sky-300 bg-gradient-to-r from-blue-500 to-sky-400 text-lg font-semibold text-white rounded-md'>Tithi</button>
             <button className='px-3 py-2 shadow-lg border border-sky-300 bg-gradient-to-r from-blue-500 to-sky-400 text-lg font-semibold text-white rounded-md'>Program Schedule</button>
         </div>
