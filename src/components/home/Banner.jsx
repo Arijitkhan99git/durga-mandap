@@ -27,7 +27,7 @@ function Banner() {
         
         <div className='flex flex-col items-center '>
             <img src={dhaki} alt="dhakh" className='w-[80px] lg:w-[100px]' />
-            <h1 className='text-2xl md:text-3xl text-primary poppins-bold '>Image Gallery</h1>
+            <h1 className='text-xl md:text-3xl text-primary poppins-bold '>Image Gallery</h1>
         </div>
        
         <div className="w-full py-12 flex items-center justify-center px-6 ">
