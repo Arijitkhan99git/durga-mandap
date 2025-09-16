@@ -21,9 +21,8 @@ function Schedule() {
             </h1>
           </div>
 
-           <div className='flex flex-col items-center justify-center w-full max-w-7xl px-8 lg:px-12 pb-5 md:pb-10 gap-10 md:gap-12'>
+           <div className='flex flex-col items-center justify-center w-full max-w-7xl px-8 lg:px-12 pb-5 md:pb-10 gap-8 md:gap-12'>
             
-            <div className='relative'>
             <div className='bg-white w-full p-5 md:p-10 border border-blue-200
              flex flex-col md:flex-row justify-center md:justify-around items-center shadow-md rounded-md gap-4 md:gap-8 text-center leading-relaxed'>
                 <h1 className='text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent p-2'>মহাপঞ্চমী</h1>
@@ -33,43 +32,28 @@ function Schedule() {
                   <p>সায়ংকালে শ্রী শ্রী শারদীয়া দুর্গাদেবীর বোধন ।</p>
                  </div>
             </div>
-            <div className='bg-gray-400 h-15 w-0.5 absolute top-0 left-0'></div>
-            <div className='bg-gray-400 h-0.5 w-20 absolute top-0 left-0'></div>
-            <div className='bg-gray-400 h-15 w-0.5 absolute bottom-0 right-0'></div>
-            <div className='bg-gray-400 h-0.5 w-20 absolute bottom-0 right-0'></div>
-            </div>
-
-            <div className='relative'>
-              <div className='bg-white w-full p-5 md:p-10 border border-blue-200
-               flex flex-col md:flex-row justify-center md:justify-evenly  items-center shadow-md rounded-md gap-4 md:gap-8 text-center leading-relaxed'>
-                  <h1 className='text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent p-2'>মহাষষ্ঠী</h1>
-                  <div className='space-y-4 md:space-y-6'>
-                    <p className='poppins-semibold text-blue-500'>১১ই আশ্বিন, ১৪৩২. (ইং-২৮/০৯/২০২৫), রবিবার ।</p>
-                    <p>সন্ধ্যা ৮টায় বিশিষ্ট বহিরাগত শিল্পীদের আকর্ষনীয় সঙ্গীতানুষ্ঠান।</p>
-                    <p>পরিবেশনে - জয় ব্যানার্জ্জী ও পূর্বা সূত্রধর</p>
-                  </div>
-              </div>
-              <div className='bg-gray-400 h-15 w-0.5 absolute top-0 left-0'></div>
-              <div className='bg-gray-400 h-0.5 w-20 absolute top-0 left-0'></div>
-              <div className='bg-gray-400 h-15 w-0.5 absolute bottom-0 right-0'></div>
-              <div className='bg-gray-400 h-0.5 w-20 absolute bottom-0 right-0'></div>
-            </div>
-
-            <div className='relative'>
-               <div className='bg-white w-full p-5 md:p-10 border border-blue-200
-                flex flex-col md:flex-row justify-center md:justify-around  items-center shadow-md rounded-md gap-4 md:gap-8 text-center leading-relaxed'>
-                    <h1 className='text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent p-2'>মহাসপ্তমী</h1>
-                    <div className='space-y-4 md:space-y-6'>
-                      <p className='poppins-semibold text-blue-500'>১২ আশ্বিন (২৯ সেপ্টেম্বর), সোমবার ।</p>
-                      <p>মধ্যাহ্নে মা এর অনুপ্রসাদ বিতরণ। সন্ধ্যা ৭টা ৩০মি পশ্চিমবঙ্গ বিজ্ঞান মঞ্চ কর্তৃক ম্যাজিক প্রদর্শণী।</p>
-                    </div>     
-              </div>
-              <div className='bg-gray-400 h-15 w-0.5 absolute top-0 left-0'></div>
-              <div className='bg-gray-400 h-0.5 w-20 absolute top-0 left-0'></div>
-              <div className='bg-gray-400 h-15 w-0.5 absolute bottom-0 right-0'></div>
-              <div className='bg-gray-400 h-0.5 w-20 absolute bottom-0 right-0'></div>
-            </div>
            
+
+            <div className='bg-white w-full p-5 md:p-10 border border-blue-200
+             flex flex-col md:flex-row justify-center md:justify-evenly  items-center shadow-md rounded-md gap-4 md:gap-8 text-center leading-relaxed'>
+                <h1 className='text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent p-2'>মহাষষ্ঠী</h1>
+                <div className='space-y-4 md:space-y-6'>
+                  <p className='poppins-semibold text-blue-500'>১১ই আশ্বিন, ১৪৩২. (ইং-২৮/০৯/২০২৫), রবিবার ।</p>
+                  <p>সন্ধ্যা ৮টায় বিশিষ্ট বহিরাগত শিল্পীদের আকর্ষনীয় সঙ্গীতানুষ্ঠান।</p>
+                  <p>পরিবেশনে - জয় ব্যানার্জ্জী ও পূর্বা সূত্রধর</p>
+                </div>
+            </div>
+
+            <div className='bg-white w-full p-5 md:p-10 border border-blue-200
+             flex flex-col md:flex-row justify-center md:justify-around  items-center shadow-md rounded-md gap-4 md:gap-8 text-center leading-relaxed'>
+                <h1 className='text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent p-2'>মহাসপ্তমী</h1>
+                <div className='space-y-4 md:space-y-6'>
+                  <p className='poppins-semibold text-blue-500'>১২ আশ্বিন (২৯ সেপ্টেম্বর), সোমবার ।</p>
+                  <p>মধ্যাহ্নে মা এর অনুপ্রসাদ বিতরণ। সন্ধ্যা ৭টা ৩০মি পশ্চিমবঙ্গ বিজ্ঞান মঞ্চ কর্তৃক ম্যাজিক প্রদর্শণী।</p>
+                </div>
+               
+               
+            </div>
 
             <div className='bg-white w-full p-5 md:p-10 border border-blue-200
              flex flex-col md:flex-row justify-center md:justify-evenly  items-center shadow-md rounded-md gap-4 md:gap-8 text-center leading-relaxed'>
