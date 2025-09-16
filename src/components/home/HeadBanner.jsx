@@ -24,7 +24,7 @@ function HeadBanner() {
                     duration:2,
                     ease:'easeInOut'
                     }}
-            className='space-y-4 md:space-y-6 lg:space-y-8 px-6 md:px-8 lg:px-12  p-10 sm:w-[65%] md:w-[60%] xl:w-[40%] lg:leading-14'>
+            className='space-y-4 md:space-y-6 lg:space-y-8 px-6 md:px-8 lg:px-12 p-6 md:p-10 sm:w-[65%] md:w-[60%] xl:w-[40%] lg:leading-14'>
                 
                 <div              
                     className=' text-sm md:text-lg lg:text-xl space-y-1 md:space-y-2 my-4 md:my-8 '>
