@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {pujaDhunuchNaach} from '../../assets/banner/index'
 import { useNavigate } from 'react-router-dom'
 
 function Tithi() {
   const navigate = useNavigate()
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }, []);
 
   const schedulePage =()=>{
     navigate('/schedule')
@@ -52,7 +56,7 @@ function Tithi() {
                 <p>সন্ধ্যাবেলা শ্রীশ্রীশারদীয়া দুর্গাদেবীর আমন্ত্রণ ও অধিবাস।</p>
             </div>
 
-            <div className='bg-gradient-to-r from-red-100 to-blue-100 w-full p-5 md:p-10 border border-gray-100
+            <div className='bg-gradient-to-r from-red-100/50 to-blue-100/50 w-full p-5 md:p-10 border border-gray-100
              flex flex-col md:flex-row justify-center items-center shadow-md rounded-md gap-4 md:gap-8 text-center leading-relaxed'>
                 <h1 className='text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent p-2'>মহাসপ্তমী</h1>
                 <p className='poppins-semibold'>১২ আশ্বিন (২৯ সেপ্টেম্বর), সোমবার ।</p>
@@ -72,7 +76,7 @@ function Tithi() {
                 <p><span className='font-semibold'>বলিদান :- </span>  দুপুর  0১:৪৫(01:45PM)গতে।</p>
             </div>
 
-            <div className='bg-gradient-to-r from-red-100 to-blue-100 w-full p-5 md:p-10 border border-gray-100
+            <div className='bg-gradient-to-r from-orange-100/50 to-blue-100/50 w-full p-5 md:p-10 border border-gray-100
              flex flex-col md:flex-row justify-center items-center shadow-md rounded-md gap-4 md:gap-8 text-center leading-relaxed'>
                 <h1 className='text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent p-2'>মহানবমী</h1>
                 <p className='poppins-semibold'>১৪ আশ্বিন (০১ অক্টোবর ২০২৫), বুধবার।</p>

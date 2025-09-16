@@ -14,7 +14,7 @@ function HeadBanner() {
                 ease:'easeInOut'
             }}
         style={{backgroundImage:`url(${bannerImg})`}} 
-        className=' bg-cover bg-center overflow-hidden sm:py-5 md:py-8 '>
+        className=' bg-cover bg-center overflow-hidden sm:py-4  '>
             
             <motion.div 
                 initial={{y:"5rem", opacity:0}}
@@ -24,7 +24,7 @@ function HeadBanner() {
                     duration:2,
                     ease:'easeInOut'
                     }}
-            className='space-y-3 md:space-y-6 lg:space-y-10 px-6 md:px-8 lg:px-12  p-10 sm:w-[65%] md:w-[60%] xl:w-[40%] lg:leading-14'>
+            className='space-y-4 md:space-y-6 lg:space-y-8 px-6 md:px-8 lg:px-12  p-10 sm:w-[65%] md:w-[60%] xl:w-[40%] lg:leading-14'>
                 
                 <div              
                     className=' text-sm md:text-lg lg:text-xl space-y-1 md:space-y-2 my-4 md:my-8 '>
@@ -34,8 +34,8 @@ function HeadBanner() {
                 </div>
                    
                 <h4 className="font-bold max-w-[60%] text-lg sm:text-xl md:text-2xl lg:text-3xl md:pt-6 
-                bg-gradient-to-r from-sky-600 to-white bg-clip-text text-transparent ">
-                    শ্রী শ্রী শারদীয় সর্বজনীন দুর্গোৎসব ~ ২০২৫
+                bg-gradient-to-r from-sky-600 to-white bg-clip-text text-transparent leading-relaxed">
+                    শ্রী শ্রী শারদীয় সর্বজনীন দুর্গোৎসব ~ ২০২৫ <br />৫৮ তম বর্ষ
                 </h4>
                 <h1 className='font-extrabold text-3xl md:text-4xl lg:text-5xl md:pb-6
                  leading-relaxed  bg-gradient-to-r from-yellow-600 to-white bg-clip-text text-transparent'>
