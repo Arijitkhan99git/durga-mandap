@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import 'swiper/css/effect-coverflow';
-import { Navigation, Autoplay, EffectCoverflow } from "swiper/modules";
+import { Navigation, Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
 
 function Banner() {
   
@@ -32,7 +32,7 @@ function Banner() {
        
         <div className="w-full py-12 flex items-center justify-center px-6 ">
         <Swiper className="custom-nav-banner rounded-lg"
-            modules={[Autoplay,Navigation, EffectCoverflow]}
+            modules={[Navigation, EffectCoverflow, Pagination]}
             spaceBetween={20}
           
             // autoplay={{
@@ -44,6 +44,7 @@ function Banner() {
             grabCursor={true}
             centeredSlides={true}
             slidesPerView={'auto'}
+            
             coverflowEffect={{
             rotate: 50,
             stretch: 0,
@@ -59,6 +60,7 @@ function Banner() {
             1000: { slidesPerView: 3 },
             }}
             navigation={true}
+           
             loop={true}
         >
             {sliderData.map((card) => (

@@ -6,11 +6,17 @@ import bannerImg from './bannerImgCom.jpg'
 import durgaMaa from './durgaMaa.png'
 import durgaPujaDhunuchiNaach from './vecteezy_durga-puja-dhunuchi-naach.jpg'
 import dhaki from './dhaki.png'
+import pujaDhunuchNaach from './pujaDhunuchNaach.jpg'
+import pujabannerft from './pujabannerft.jpg'
+import durgaTenHands from './durgaTenHands.jpg'
 
 export {kashful_1, kashful_2, kashful_3,
     pujaLogo, 
     bannerImg,
     durgaMaa,
     durgaPujaDhunuchiNaach,
-    dhaki
+    dhaki,
+    pujaDhunuchNaach,
+    pujabannerft,
+    durgaTenHands
 };
