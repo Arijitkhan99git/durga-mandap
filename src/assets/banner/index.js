@@ -1,6 +1,6 @@
 import kashful_1 from './kashful_1.jpg'
 import kashful_2 from './kashful_2.jpg'
-import kashful_3 from './kashful_3.jpg'
+import kashful_3 from './kashful_3.JPG'
 import pujaLogo from './pujaLogo.png'
 import bannerImg from './bannerImgCom.jpg'
 import durgaMaa from './durgaMaa.png'
