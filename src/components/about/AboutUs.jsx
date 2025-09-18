@@ -9,7 +9,7 @@ function AboutUs() {
   return (
       <>
       <div className='w-full overflow-x-clip mt-[4rem] pb-5 md:pb-8 text-primary 
-      flex flex-col justify-center items-center bg-gradient-to-r from-yellow-100 via-violet-100 to-red-200 gap-6'>
+      flex flex-col justify-center items-center bg-gradient-to-r from-orange-100/50 via-sky-100/50 to-red-100 gap-6'>
          <div className='w-full '>
             <img src={aboutusHeader} alt="aboutusHeader" />
           </div>
