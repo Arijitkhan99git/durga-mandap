@@ -44,7 +44,7 @@ function AboutUs() {
           <img src={bow} alt="bow" width={35}/>
         </div>
         <div className='flex flex-col md:flex-row w-full max-w-7xl items-center md:justify-around py-8 mx-12 my-12
-        gap-4 bg-gray-200 shadow-md rounded-md border-2 border-white text-blue-600'>
+        gap-4 bg-gray-200 shadow-md rounded-md border-2 border-white text-blue-900'>
             <div className='flex flex-row md:flex-col '>
               <p  className='font-semibold text-lg'>সভাপতি - </p>
               <p>শ্রী রঘুমনি সাহা</p>
