@@ -10,7 +10,7 @@ function Footer() {
         style={{backgroundImage:`url(${durgaTenHands})`}} 
           className=' bg-cover bg-center overflow-hidden '
        >
-        <div className="w-full py-5 md:py-10 px-12
+        <div className="w-full py-8 md:py-10 px-12
         space-y-8 bg-black/60 backdrop-blur-xs">
 
           {/* upper section */}
