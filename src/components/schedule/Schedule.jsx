@@ -14,7 +14,8 @@ function Schedule() {
 
   return (
      <>
-       <div className='w-full overflow-x-clip mt-[4rem] pb-5 md:pb-8 text-primary flex flex-col justify-center items-center bg-gradient-to-r from-gray-200 to-purple-200'>
+       <div className='w-full overflow-x-clip mt-[4rem] pb-5 md:pb-8 text-primary flex flex-col justify-center items-center
+        bg-gradient-to-r from-blue-100 to-red-100'>
 
           <div className='w-full '>
             <img src={pujabannerft} alt="pujabannerft" />

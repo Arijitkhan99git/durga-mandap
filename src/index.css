@@ -12,6 +12,12 @@
    font-family: "Poppins", sans-serif;
 }
 
+.text-stroke {
+  -webkit-text-stroke: 2px red; /* border size + color */
+  -webkit-text-fill-color: transparent; /* makes inside transparent */
+}
+
+
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;

@@ -18,7 +18,7 @@ function Footer() {
             {/* contact us */}
             <div className='text-white space-y-4  flex flex-col items-center md:items-start'>
               <img src={pujaLogo} alt='Logo' className='w-[60px] '></img>
-              <h2 className='text-2xl poppins-semibold '>Contact Us</h2>
+              <h2 className='text-lg md:text-2xl poppins-semibold '>Contact Us</h2>
               <div className='gap-2 flex'>
                 <Mail/>
                 <p>bankadaha_Sarbojanin@gmail.com</p>
@@ -27,8 +27,8 @@ function Footer() {
               
               {/* organized by */}
             <div className='text-white space-y-4 flex flex-col items-center md:items-start'>
-                <h1 className='text-2xl poppins-semibold text-orange-600'>Organized By</h1>
-                <h1 className='text-2xl  md:text-3xl font-bold text-center'>বাঁকাদহ সর্বজনীন দুর্গোৎসব কমিটি</h1>
+                <h1 className='text-lg md:text-2xl poppins-semibold '>Organized By</h1>
+                <h1 className='text-lg  md:text-3xl font-bold text-center text-orange-600'>বাঁকাদহ সর্বজনীন দুর্গোৎসব কমিটি</h1>
                 <div className='gap-2 flex items-center'>
                   <Facebook size={35} strokeWidth={1.5} className='bg-primary p-1 rounded-full'/>
                   <a href="https://www.facebook.com/profile.php?id=100064645337825&mibextid=ZbWKwL"
