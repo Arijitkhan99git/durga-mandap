@@ -1,29 +1,40 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { bannerImg } from '../../assets/banner/index'
 import { easeInOut, motion } from "motion/react"
 
 function HeadBanner() {
+    const [hasAnimated, setHasAnimated] = useState(false);
+
+    useEffect(() => {
+        if (!hasAnimated) {
+        setHasAnimated(true);
+        }
+    }, [hasAnimated]);
+
   return (
     <>
         <motion.div 
-            initial={{x:"5rem", opacity:0}}
-            animate={{x:0, opacity:1}}
+         initial={hasAnimated ? false : {x:"5rem", opacity:0}}
+            
+        animate={{x:0, opacity:1}}
             transition={{
                 delay:0.5,
                 duration:2,
                 ease:'easeInOut'
             }}
+        viewport={{ once: true }}
         style={{backgroundImage:`url(${bannerImg})`}} 
         className=' bg-cover bg-center overflow-hidden sm:py-4  '>
             
             <motion.div 
-                initial={{y:"5rem", opacity:0}}
+                initial={hasAnimated ? false : {y:"5rem", opacity:0}}
                 animate={{y:0, opacity:1}}
                 transition={{
                     delay:1.5,
                     duration:2,
                     ease:'easeInOut'
                     }}
+                viewport={{ once: true }}
             className='space-y-4 md:space-y-6 lg:space-y-8 px-6 md:px-8 lg:px-12 p-6 md:p-10 sm:w-[65%] md:w-[60%] xl:w-[40%] lg:leading-14'>
                 
                 <div              
