@@ -28,7 +28,7 @@ function HomePage() {
           whileInView={{ scale: 1, opacity: 1 }} 
           transition={{ duration: 1, ease: "easeInOut" }} 
           viewport={{ once: true, amount: 0.5 }} 
-          className='px-6  py-8  text-center space-y-1'>
+          className='px-6  py-8  text-center space-y-1 '>
           <h3 className='text-lg font-semibold bg-gradient-to-r from-gray-400 via-red-700 to-teal-400 bg-clip-text text-transparent'>পরিচালনায়:</h3>
           <h1 className='text-2xl py-1 md:text-3xl font-bold bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent'>বাঁকাদহ সর্বজনীন দুর্গোৎসব কমিটি</h1>
           

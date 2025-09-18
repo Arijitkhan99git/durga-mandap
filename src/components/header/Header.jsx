@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {NavLink} from 'react-router-dom'
 import { Menu } from 'react-feather'
+import { X } from 'lucide-react';
 import { pujaLogo } from '../../assets/banner'
 
 function Header() {
@@ -92,7 +93,9 @@ function Header() {
                 <div className='flex items-center gap-6 mx-6 '>                                 
 
                     <button onClick={handelMenu} className='md:hidden '>
-                            <Menu className="h-6 w-6 text-gray-800 cursor-pointer"></Menu>
+                        {!isMenuOpen &&  <Menu size={30} className=" text-gray-600 cursor-pointer"></Menu>}
+                        {isMenuOpen && <X size={30} className=" text-gray-600 cursor-pointer"/>}
+                           
                     </button>       
                         
                 </div>

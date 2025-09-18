@@ -14,10 +14,10 @@ function AboutUs() {
             <img src={aboutusHeader} alt="aboutusHeader" />
           </div>
 
-        <div className='w-full max-w-7xl py-8 px-12 flex flex-col md:flex-row justify-around gap-10'>
+        <div className='w-full max-w-7xl py-4 md:py-8 px-12 flex flex-col md:flex-row justify-around gap-10'>
 
           {/* left side */}
-          <div className='space-y-4 '>
+          <div className='space-y-2 md:space-y-4 '>
             <h1 className='text-4xl md:text-6xl poppins-bold  text-stroke '>About Us</h1>
             <p className='font-extrabold text-3xl '>Let's Talk About Your Durga Puja.</p>
           </div>

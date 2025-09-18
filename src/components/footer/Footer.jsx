@@ -10,14 +10,14 @@ function Footer() {
         style={{backgroundImage:`url(${durgaTenHands})`}} 
           className=' bg-cover bg-center overflow-hidden '
        >
-        <div className="w-full py-10 px-12
+        <div className="w-full py-5 md:py-10 px-12
         space-y-8 bg-black/60 backdrop-blur-xs">
 
           {/* upper section */}
-          <div className='flex flex-col md:flex-row w-full max-w-7xl mx-auto justify-around gap-10 '>
+          <div className='flex flex-col md:flex-row w-full max-w-7xl mx-auto justify-around gap-6 md:gap-10 '>
             {/* contact us */}
-            <div className='text-white space-y-4  flex flex-col items-center md:items-start'>
-              <img src={pujaLogo} alt='Logo' className='w-[60px] '></img>
+            <div className='text-white space-y-2 md:space-y-4  flex flex-col items-center md:items-start'>
+              <img src={pujaLogo} alt='Logo' className='w-[40px] md:w-[60px] '></img>
               <h2 className='text-lg md:text-2xl poppins-semibold '>Contact Us</h2>
               <div className='gap-2 flex'>
                 <Mail/>
@@ -26,12 +26,12 @@ function Footer() {
             </div>
               
               {/* organized by */}
-            <div className='text-white space-y-4 flex flex-col items-center md:items-start'>
+            <div className='text-white space-y-2 md:space-y-4 flex flex-col items-center md:items-start'>
                 <h1 className='text-lg md:text-2xl poppins-semibold '>Organized By</h1>
                 <h1 className='text-lg  md:text-3xl font-bold text-center text-orange-600'>বাঁকাদহ সর্বজনীন দুর্গোৎসব কমিটি</h1>
                 <div className='gap-2 flex items-center'>
                   <Facebook size={35} strokeWidth={1.5} className='bg-primary p-1 rounded-full'/>
-                  <a href="https://www.facebook.com/profile.php?id=100064645337825&mibextid=ZbWKwL"
+                  <a href="https://www.facebook.com/groups/1222397804612307/?ref=share&mibextid=NSMWBT"
                     target='_blank'
                   >facebook</a>
               </div>
@@ -40,9 +40,9 @@ function Footer() {
           </div> 
           {/* lower section */}
 
-          <div className='space-y-6 text-gray-400 text-center'>
-              <div className='w-full bg-gray-400 h-[1px]'> </div>
-              <p>© 2025 Bankadah Sarbojonin Durga Utsav Committee. All rights reserved.</p>
+          <div className='space-y-4 md:space-y-6 text-gray-400 text-center'>
+              <div className='w-full bg-gray-500 h-[1px]'> </div>
+              <p className='text-sm md:text-base'>© 2025 Bankadah Sarbojonin Durga Utsav Committee. All rights reserved.</p>
           </div>
         </div>
     </div>
