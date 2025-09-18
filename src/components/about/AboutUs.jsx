@@ -19,7 +19,7 @@ function AboutUs() {
           {/* left side */}
           <div className='space-y-2 md:space-y-4 '>
             <h1 className='text-4xl md:text-6xl poppins-bold  text-stroke '>About Us</h1>
-            <p className='font-extrabold text-3xl '>Let's Talk About Your Durga Puja.</p>
+            <p className='font-extrabold text-3xl '>Let's Talk About Our Durga Puja.</p>
           </div>
 
           {/* right side */}
