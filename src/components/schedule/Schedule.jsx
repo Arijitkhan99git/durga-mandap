@@ -1,14 +1,20 @@
 import React, { useEffect } from 'react'
 import {pujabannerft} from '../../assets/banner/index'
+import { useNavigate } from 'react-router-dom';
 
 function Schedule() {
+  const navigate = useNavigate()
+
+  const  aboutUsPage= ()=>{
+      navigate('/about')
+  }
  useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }, []);
 
   return (
      <>
-       <div className='w-full overflow-x-clip mt-[4rem] text-primary flex flex-col justify-center items-center bg-gradient-to-r from-gray-200 to-purple-200'>
+       <div className='w-full overflow-x-clip mt-[4rem] pb-5 md:pb-8 text-primary flex flex-col justify-center items-center bg-gradient-to-r from-gray-200 to-purple-200'>
 
           <div className='w-full '>
             <img src={pujabannerft} alt="pujabannerft" />
@@ -100,7 +106,13 @@ function Schedule() {
             </div>
         </div>
 
-         
+         <div className='py-10'>
+          <button 
+            onClick={aboutUsPage}
+            className='px-3 py-2 shadow-lg border border-sky-300 bg-gradient-to-r from-blue-500 to-sky-400 text-lg font-semibold text-white rounded-md'>About Us</button>
+        
+        </div>
+
         </div>     
     </>
   )
