@@ -1,5 +1,5 @@
 import React from 'react'
-import {kashful_1, kashful_2, kashful_3, dhaki} from '../../assets/banner/index'
+import { dhaki} from '../../assets/banner/index'
 import { useNavigate } from 'react-router-dom';
 
 import { Swiper, SwiperSlide } from "swiper/react";
