@@ -48,7 +48,7 @@ function Tithi() {
         <div className='flex flex-col items-center justify-center w-full max-w-7xl px-8 lg:px-12 py-5 md:py-10 gap-8'>
 
             <div className='bg-gradient-to-r from-orange-100/50 to-blue-100/50 w-full p-5 md:p-10 border border-gray-100
-             flex flex-col md:flex-row justify-center items-center shadow-md rounded-md gap-4 md:gap-8 text-center leading-relaxed'>
+             flex flex-col md:flex-row justify-center items-center shadow-md rounded-md gap-4 md:gap-8  leading-relaxed text-center md:text-left'>
                 <h1 className='text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent p-2'>মহাষষ্ঠী</h1>
                 <p className='poppins-semibold'>১১ই আশ্বিন, ১৪৩২. (ইং-২৮/০৯/২০২৫), রবিবার ।</p>
                 <p>শ্রী শ্রী দুর্গাষষ্ঠীতিথি রবিবার সকাল  ১০:৪৩ (10:43AM)পর্যন্ত।</p>
@@ -57,7 +57,7 @@ function Tithi() {
             </div>
 
             <div className='bg-gradient-to-r from-red-100/50 to-blue-100/50 w-full p-5 md:p-10 border border-gray-100
-             flex flex-col md:flex-row justify-center items-center shadow-md rounded-md gap-4 md:gap-8 text-center leading-relaxed'>
+             flex flex-col md:flex-row justify-center items-center shadow-md rounded-md gap-4 md:gap-10 text-center md:text-left leading-relaxed'>
                 <h1 className='text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent p-2'>মহাসপ্তমী</h1>
                 <p className='poppins-semibold'>১২ আশ্বিন (২৯ সেপ্টেম্বর), সোমবার ।</p>
                 <p>সপ্তমী ২৯ সেপ্টেম্বর সোমবার দুপুর ১২:২৭(12:27PM) পর্যন্ত।</p>
@@ -66,7 +66,7 @@ function Tithi() {
             </div>
 
             <div className='bg-gradient-to-r from-gray-100 to-purple-100 w-full p-5 md:p-10 border border-gray-100
-             flex flex-col md:flex-row justify-center items-center shadow-md rounded-md gap-4 md:gap-8 text-center leading-relaxed'>
+             flex flex-col md:flex-row justify-center items-center shadow-md rounded-md gap-4 md:gap-8 text-center md:text-left leading-relaxed'>
                 <h1 className='text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent p-2'>মহাষ্টমী</h1>
                 <p className='poppins-semibold'>১৩ আশ্বিন (৩০ সেপ্টেম্বর), মঙ্গলবার।</p>
                 <p>মহাষ্টমী ৩০ সেপ্টেম্বর মঙ্গলবার দুপুর  0১:৪৫ (01:45PM) পর্যন্ত।</p>
@@ -77,7 +77,7 @@ function Tithi() {
             </div>
 
             <div className='bg-gradient-to-r from-orange-100/50 to-blue-100/50 w-full p-5 md:p-10 border border-gray-100
-             flex flex-col md:flex-row justify-center items-center shadow-md rounded-md gap-4 md:gap-8 text-center leading-relaxed'>
+             flex flex-col md:flex-row justify-center items-center shadow-md rounded-md gap-4 md:gap-8 text-center md:text-left leading-relaxed'>
                 <h1 className='text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent p-2'>মহানবমী</h1>
                 <p className='poppins-semibold'>১৪ আশ্বিন (০১ অক্টোবর ২০২৫), বুধবার।</p>
                 <p>মহানবমী ০১ অক্টোবর বুধবার দুপুর  0২ :৩৬ (02:36PM) পর্যন্ত।</p>
@@ -87,7 +87,7 @@ function Tithi() {
             </div>
 
             <div className='bg-gradient-to-r from-gray-100 to-purple-100 w-full p-5 md:p-10 border border-gray-100
-             flex flex-col md:flex-row justify-center items-center shadow-md rounded-md gap-4 md:gap-8 text-center leading-relaxed'>
+             flex flex-col md:flex-row justify-center items-center shadow-md rounded-md gap-4 md:gap-8 text-center md:text-left leading-relaxed'>
                 <h1 className='text-xl md:text-2xl font-bold bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent p-2'>বিজয়া দশমী</h1>
                 <p className='poppins-semibold'>১৫ আশ্বিন (০২ অক্টোবর ২০২৫), বৃহস্পতিবার।</p>
                 <p>বিজয়াদশমী ০২ অক্টোবর বৃহস্পতিবার দুপুর  0২ :৫৫ (02:55PM) পর্যন্ত।</p>

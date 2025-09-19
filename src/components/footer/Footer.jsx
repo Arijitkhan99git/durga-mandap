@@ -16,7 +16,7 @@ function Footer() {
           {/* upper section */}
           <div className='flex flex-col md:flex-row w-full max-w-7xl mx-auto justify-around gap-6 md:gap-10 '>
             {/* contact us */}
-            <div className='text-white space-y-2 md:space-y-4  flex flex-col items-center md:items-start'>
+            <div className='text-white space-y-1 md:space-y-2  flex flex-col items-center md:items-start'>
               <img src={pujaLogo} alt='Logo' className='w-[40px] md:w-[60px] '></img>
               <h2 className='text-lg md:text-2xl poppins-semibold '>Contact Us</h2>
               <div className='gap-2 flex'>
