@@ -5,18 +5,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import 'swiper/css/effect-coverflow';
-import { Navigation, Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 
 function Banner() {
   
     const sliderData = [
-        { id: 1, title: "Mahalaya", image: kashful_1 },
-        { id: 2, title: "Maha Panchami", image: kashful_2 },
-        { id: 3, title: "Maha Shashthi", image: kashful_3 },
-        { id: 4, title: "Mahalaya", image: kashful_1 },
-        { id: 5, title: "Maha Panchami", image: kashful_2 },
-        { id: 6, title: "Maha Shashthi", image: kashful_3 },
+        { id: 1, title: "Mahalaya", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758276873/IMG-20250825-WA0057_fkp54n.jpg' },
+        { id: 2, title: "Maha Panchami", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758275964/IMG-20250825-WA0007_ntybsq.jpg' },
+        { id: 3, title: "Maha Shashthi", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758275970/DSC_4531_1_b6rmgl.jpg' },
+        { id: 4, title: "Mahalaya", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758277502/DSC_4875_1_pkrq7o.jpg' },
+        { id: 5, title: "Maha Panchami", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758276057/DSC_4488_k4h2zf.jpg' }
       ];
 
     
@@ -32,7 +30,7 @@ function Banner() {
        
         <div className="w-full py-12 flex items-center justify-center px-6 ">
         <Swiper className="custom-nav-banner rounded-lg"
-            modules={[Navigation, EffectCoverflow, Pagination]}
+            modules={[Navigation, Pagination]}
             spaceBetween={20}
           
             // autoplay={{
@@ -40,19 +38,10 @@ function Banner() {
             // disableOnInteraction: false,
             // }}
 
-            effect={'coverflow'}
+           
             grabCursor={true}
             centeredSlides={true}
-            slidesPerView={'auto'}
-            
-            coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-            }}
-
+           
             speed={1000} 
             breakpoints={{
             400: { slidesPerView: 1 },
@@ -68,7 +57,7 @@ function Banner() {
                 <div>               
                     <img
                         src={card.image}
-                        alt={card.title}    
+                        alt={card.title}
                     />         
 
                 </div>

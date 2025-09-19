@@ -12,6 +12,7 @@ import durgaTenHands from './durgaTenHands.jpg'
 import aboutusHeader from './aboutusHeader.jpg'
 import bow from './gift-bow2.png'
 import temple from './temple.png'
+import galleryBanner from './galleryBanner.jpg'
 
 export {kashful_1, kashful_2, kashful_3,
     pujaLogo, 
@@ -24,5 +25,6 @@ export {kashful_1, kashful_2, kashful_3,
     durgaTenHands,
     aboutusHeader,
     bow,
-    temple
+    temple,
+    galleryBanner
 };

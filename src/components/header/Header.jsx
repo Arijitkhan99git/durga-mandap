@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {NavLink} from 'react-router-dom'
+import {NavLink, Link} from 'react-router-dom'
 import { Menu } from 'react-feather'
 import { X } from 'lucide-react';
 import { pujaLogo } from '../../assets/banner'
@@ -17,16 +17,23 @@ function Header() {
        setIsMenuOpen(!isMenuOpen)
         
     }
+
+    const openHomePage = ()=>{
+        console.log("open home page");
+        
+    }
     
   return (
     <>
        <nav className='shadow-md fixed top-0 w-full bg-white h-[4rem] z-10'>
         <div className='flex justify-between py-1 px-6 lg:px-10'>
      
-            <div className='flex  items-center'>
+            <Link   
+                to='/'
+                className='flex items-center cursor-pointer'>
                 <img src={pujaLogo} alt='Logo' className='w-[40px] m-2'></img>
                 <h1 className='text-xl lg:text-2xl font-bold text-orange-600 p-2'>Puja Mandap</h1>
-            </div>
+            </Link>
 
             <div className='flex'>          
                 {/* Desktop View */}
@@ -72,8 +79,20 @@ function Header() {
                                     Program
                             </NavLink>
                         </li>
+                        <li>
+                        <NavLink
+                            to='/gallery'
+                            onClick={closeMenu}
+                            className={({isActive}) =>
+                                ` duration-200 p-2                        
+                                ${isActive ? "text-orange-700" : "text-gray-700"}
+                                hover:text-blue-700` }
+                            >
+                            Gallery
+                        </NavLink>
+                        </li>  
 
-                            <li>
+                        <li>
                             <NavLink
                                 to='/about'
                                 onClick={closeMenu}
@@ -83,7 +102,7 @@ function Header() {
                                     hover:text-blue-700` }
                             >
                             About Us
-                        </NavLink>
+                            </NavLink>
                         </li>  
                     </ul>
                                                         
@@ -148,6 +167,19 @@ function Header() {
                             Program Schedule
                     </NavLink>
                 </li>
+                
+                 <li>
+                    <NavLink
+                        to='/gallery'
+                         onClick={closeMenu}
+                            className={({isActive}) =>
+                                `block  duration-200 p-2                       
+                                ${isActive ? "text-orange-700" : "text-gray-700"}
+                                 hover:text-blue-700 `
+                            }
+                        >Gallery
+                    </NavLink>
+                </li>  
 
                 <li>
                     <NavLink
@@ -161,6 +193,7 @@ function Header() {
                         >About Us
                     </NavLink>
                 </li>          
+                       
             </ul>
                                                 
         </div>
