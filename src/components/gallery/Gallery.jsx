@@ -89,7 +89,7 @@ function Gallery() {
         </div>
 
         <div className='w-full max-w-7xl mx-auto px-8 md:px-12  flex flex-col justify-center items-center'>
-            <h1 className='text-2xl md:text-3xl font-bold text-center p-8
+            <h1 className='text-3xl md:text-5xl poppins-bold text-center p-8
             bg-gradient-to-r from-orange-500 to-red-500 bg-clip-text text-transparent'>Image Gallery</h1>
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8 w-full mx-auto pt-5 mb-[4rem]'>
