@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 function Schedule() {
   const navigate = useNavigate()
 
-  const  aboutUsPage= ()=>{
-      navigate('/about')
+  const  galleryPage= ()=>{
+      navigate('/gallery')
   }
  useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
@@ -109,8 +109,8 @@ function Schedule() {
 
          <div className='py-10'>
           <button 
-            onClick={aboutUsPage}
-            className='px-3 py-2 shadow-lg border border-sky-300 bg-gradient-to-r from-blue-500 to-sky-400 text-lg font-semibold text-white rounded-md'>About Us</button>
+            onClick={galleryPage}
+            className='px-3 py-2 shadow-lg border border-sky-300 bg-gradient-to-r from-blue-500 to-sky-400 text-lg font-semibold text-white rounded-md'>Image Gallery</button>
         
         </div>
 

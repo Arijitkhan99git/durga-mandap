@@ -21,7 +21,7 @@ function Footer() {
               <h2 className='text-lg md:text-2xl poppins-semibold '>Contact Us</h2>
               <div className='gap-2 flex'>
                 <Mail/>
-                <p>bankadaha_Sarbojanin@gmail.com</p>
+                <p>bankadahasarbojanin@gmail.com</p>
               </div>              
             </div>
               

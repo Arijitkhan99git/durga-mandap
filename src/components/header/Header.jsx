@@ -109,11 +109,11 @@ function Header() {
                 </div>
 
                   {/* user Menu */}
-                <div className='flex items-center gap-6 mx-6 '>                                 
+                <div className='flex items-center gap-6 mx-2 '>                                 
 
                     <button onClick={handelMenu} className='md:hidden '>
-                        {!isMenuOpen &&  <Menu size={30} className=" text-gray-600 cursor-pointer"></Menu>}
-                        {isMenuOpen && <X size={30} className=" text-gray-600 cursor-pointer"/>}
+                        {!isMenuOpen &&  <Menu size={28} className=" text-gray-600 cursor-pointer"></Menu>}
+                        {isMenuOpen && <X size={28} className=" text-gray-600 cursor-pointer"/>}
                            
                     </button>       
                         
