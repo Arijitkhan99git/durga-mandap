@@ -10,7 +10,7 @@ import aboutusHeader from './aboutusHeader.jpg'
 import bow from './gift-bow2.png'
 import temple from './temple.png'
 import galleryBanner from './galleryBanner.jpg'
-
+import om from './om.png'
 export {
     pujaLogo, 
     bannerImg,
@@ -23,5 +23,6 @@ export {
     aboutusHeader,
     bow,
     temple,
-    galleryBanner
+    galleryBanner,
+    om
 };

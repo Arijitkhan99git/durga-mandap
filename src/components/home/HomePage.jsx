@@ -5,6 +5,7 @@ import { motion } from "motion/react"
 import PujaDays from './PujaDays'
 import { useNavigate } from 'react-router-dom';
 import Historical from './Historical'
+import PujoTheme from './PujoTheme'
 
 function HomePage() {
   const navigate = useNavigate();
@@ -49,6 +50,7 @@ function HomePage() {
         
         </div>
 
+       <PujoTheme></PujoTheme>
          {/* Historical Heritage Section */}
           <Historical></Historical>
       </div>

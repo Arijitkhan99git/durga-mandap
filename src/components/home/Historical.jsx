@@ -164,7 +164,7 @@ function Historical() {
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.5 }}
               viewport={{ once: true }}
-              className='py-5'>
+              className='py-2'>
               
               <h3 className='text-2xl md:text-3xl font-bold text-center bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent py-10'>
                 উত্তর কলকাতার বারোয়ারি পূজায় নেতাজির অবদান
