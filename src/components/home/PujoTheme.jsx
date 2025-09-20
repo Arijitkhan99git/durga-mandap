@@ -1,8 +1,11 @@
 import React from 'react'
+import { motion } from "motion/react"
 
 function PujoTheme() {
   return (
-    <div>PujoTheme</div>
+    <div>
+    <p>Pujo</p>
+    </div>
   )
 }
 
