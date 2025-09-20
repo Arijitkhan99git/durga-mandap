@@ -3,10 +3,16 @@ import { motion } from "motion/react"
 import { Mail } from 'lucide-react';
 
 function Historical() {
+    const data = [
+            { year: '১৯৩৪', event: 'শিমলা ব্যায়াম সমিতির দুর্গা পূজার সভাপতি' },
+            { year: '১৯৩৭-১৯৩৮', event: 'কুমোরটুলি দূর্গা পূজা কমিটির সভাপতি' },
+            { year: '১৯৩৮-১৯৩৯', event: 'বাগবাজার সার্বজনীন দুর্গাপূজার সভাপতিত্ব' }
+        ]
+
   return (
     <>
     <div className='w-full  overflow-x-clip mt-[4rem] pb-5 md:pb-10 flex justify-center items-center'>
-        <div className='w-full max-w-7xl py-4 md:py-6 px-12'>
+        <div className='w-full max-w-7xl py-4 md:py-6 px-12 mb-4'>
 
             
         <motion.div 
@@ -79,7 +85,7 @@ function Historical() {
               viewport={{ once: true }}
               className='mb-12'>
               
-              <h3 className='text-2xl md:text-3xl font-bold text-center bg-gradient-to-r from-red-700 to-orange-600 bg-clip-text text-transparent py-4 md:py-8'>
+              <h3 className='text-2xl md:text-3xl font-bold text-center bg-gradient-to-r from-red-700 to-orange-600 bg-clip-text text-transparent py-6 md:py-8 mb-2'>
                 জেলে থাকাকালীন দুর্গা পূজা
               </h3>
               
@@ -164,19 +170,40 @@ function Historical() {
                 উত্তর কলকাতার বারোয়ারি পূজায় নেতাজির অবদান
               </h3>
               
-              <div className='space-y-6'>
-                {[
-                  { year: '১৯৩৪', event: 'শিমলা ব্যায়াম সমিতির দুর্গা পূজার সভাপতি' },
-                  { year: '১৯৩৭-১৯৩৮', event: 'কুমোরটুলি দূর্গা পূজা কমিটির সভাপতি' },
-                  { year: '১৯৩৮-১৯৩৯', event: 'বাগবাজার সার্বজনীন দুর্গাপূজার সভাপতিত্ব' }
-                ].map((item, index) => (
+              {/* Mobile Screen */}
+               <div className='space-y-8 block md:hidden '>
+                {data.map((item, index) => (
                   <motion.div
                     key={index}
                     initial={{ x: index % 2 === 0 ? -50 : 50, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 0.6, delay: index * 0.2 }}
                     viewport={{ once: true }}
-                    className={`flex items-center gap-8 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
+                    className='flex items-center justify-center gap-3 flex-col'>
+                    
+                       <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-amber-600 to-transparent"></div>
+                      <div className='bg-gradient-to-r from-orange-100 to-red-100 rounded-2xl p-3'>
+                        <span className='text-2xl font-bold text-red-700'>{item.year}</span>
+                      </div>
+             
+                      <div className='bg-white/90 backdrop-blur-sm border border-orange-200/50 rounded-2xl p-6 shadow-lg transform hover:scale-105 transition-all duration-300 '>
+                        <h4 className='text-xl font-bold text-orange-700 mb-2'>{item.event}</h4>
+                        <p className='text-gray-600 font-medium'>নেতাজির নেতৃত্বে সাংস্কৃতিক ও আধ্যাত্মিক জাগরণ</p>                
+                    </div>        
+                  </motion.div>
+                ))}
+              </div>
+
+              {/* Lager Screen */}
+              <div className='space-y-6 hidden md:block'>
+                {data.map((item, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ x: index % 2 === 0 ? -50 : 50, opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
+                    transition={{ duration: 0.6, delay: index * 0.2 }}
+                    viewport={{ once: true }}
+                    className={`flex items-center justify-center gap-8  ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
                     
                     <div className='flex-1'>
                       <div className={`bg-white/90 backdrop-blur-sm border border-orange-200/50 rounded-2xl p-6 shadow-lg transform hover:scale-105 transition-all duration-300 ${index % 2 === 0 ? 'text-right' : 'text-left'}`}>
