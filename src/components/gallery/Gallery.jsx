@@ -77,7 +77,29 @@ function Gallery() {
             img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758275971/DSC_4544_1_1_vqbnjz.jpg',
             title:'Making 1'
         },
+        
+        {
+            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388292/WhatsApp_Image_2025-09-19_at_18.06.25_cc379908_zaadtz.jpg',
+            title:'group 1'
+        },
 
+         {
+            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388291/WhatsApp_Image_2025-09-20_at_08.25.21_491ad821_ut0w9z.jpg',
+            title:'group 2'
+        },
+         {
+            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388291/WhatsApp_Image_2025-09-19_at_18.16.15_d658789c_mfn49f.jpg',
+            title:'front 1'
+        },
+         {
+            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388291/WhatsApp_Image_2025-09-19_at_18.10.21_f3545185_pe3pat.jpg',
+            title:'front 2'
+        },
+         {
+            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388291/WhatsApp_Image_2025-09-19_at_18.14.55_3ad848a4_ujxmt8.jpg',
+            title:'old me'
+        },
+        
         
     ]
   return (
