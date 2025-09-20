@@ -33,6 +33,7 @@ function Banner() {
         <div className='flex flex-col items-center '>
             <img src={dhaki} alt="dhakh" className='w-[80px] lg:w-[100px]' />
             <h1 className='text-xl md:text-3xl text-primary poppins-bold '>Image Gallery</h1>
+            <h4 className='md:text-lg bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent py-2 '>পুজার স্মৃতিচারণ</h4>
         </div>
        
         <div className="w-full pt-12  flex items-center justify-center  ">
