@@ -72,12 +72,7 @@ function Gallery() {
             img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758276054/DSC_4570_etdhj1.jpg',
             title:'Making 3'
         },
-       
-        {
-            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758275971/DSC_4544_1_1_vqbnjz.jpg',
-            title:'Making 1'
-        },
-        
+          
         {
             img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388292/WhatsApp_Image_2025-09-19_at_18.06.25_cc379908_zaadtz.jpg',
             title:'group 1'
@@ -100,6 +95,10 @@ function Gallery() {
             title:'old me'
         },
         
+        {
+            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758275971/DSC_4544_1_1_vqbnjz.jpg',
+            title:'Making 1'
+        },
         
     ]
   return (
