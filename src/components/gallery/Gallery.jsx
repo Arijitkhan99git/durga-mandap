@@ -82,7 +82,7 @@ function Gallery() {
     ]
   return (
 
-    <div className='w-full overflow-x-clip mt-[4rem] text-primary flex flex-col justify-center items-center pb-5 md:pb-8 
+    <div className='w-full overflow-x-clip mt-[4.5rem] text-primary flex flex-col justify-center items-center pb-5 md:pb-8 
     bg-gradient-to-r from-orange-100 via-sky-100 to-red-100'>       
         <div className='w-full '>
         <img src={galleryBanner} alt="pujaDhunuchNaach" />

@@ -15,7 +15,7 @@ function Tithi() {
 
   return (
     <>
-      <div className='w-full overflow-x-clip mt-[4rem] text-primary flex flex-col justify-center items-center pb-5 md:pb-8'>
+      <div className='w-full overflow-x-clip mt-[4.5rem] text-primary flex flex-col justify-center items-center pb-5 md:pb-8'>
        <div className='w-full '>
         <img src={pujaDhunuchNaach} alt="pujaDhunuchNaach" />
        </div>

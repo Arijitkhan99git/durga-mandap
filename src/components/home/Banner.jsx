@@ -27,28 +27,30 @@ function Banner() {
     
 
   return (
-    <div className='w-full bg-gray-200 '>
-    <div className='w-full max-w-7xl  mx-auto overflow-hidden flex flex-col  py-[2rem] px-8 md:px-12'>
+    <div className='w-full bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50'>
+    <div className='w-full max-w-7xl mx-auto overflow-hidden flex flex-col py-[3rem] px-8 md:px-12'>
         
-        <div className='flex flex-col items-center '>
-            <img src={dhaki} alt="dhakh" className='w-[80px] lg:w-[100px]' />
-            <h1 className='text-xl md:text-3xl text-primary poppins-bold '>Image Gallery</h1>
+        {/* Enhanced Header Section */}
+        <div className='flex flex-col items-center mb-8'>
+            <div className='relative mb-4'>
+                <img src={dhaki} alt="Dhaki - Traditional Drummer" className='w-[100px] lg:w-[120px] drop-shadow-lg' />
+                {/* Decorative circle around dhaki */}
+                <div className='absolute inset-0 bg-gradient-to-r from-orange-300/20 via-red-300/20 to-yellow-300/20 rounded-full blur-xl'></div>
+            </div>
+            <h1 className='text-2xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-orange-600 via-red-600 to-orange-700 bg-clip-text text-transparent text-center leading-tight'>
+                Image Gallery
+            </h1>
+            <div className='w-24 h-1 bg-gradient-to-r from-orange-400 via-red-500 to-yellow-400 rounded-full mt-3'></div>
+            <p className='text-gray-600 text-sm md:text-base mt-2 text-center'>পুজার স্মৃতিচারণ</p>
         </div>
        
-        <div className="w-full pt-12  flex items-center justify-center  ">
-        <Swiper className="custom-nav-banner rounded-lg"
+        {/* Enhanced Image Slider Section */}
+        <div className="w-full flex items-center justify-center">
+        <Swiper className="custom-nav-banner rounded-xl shadow-xl"
             modules={[Navigation, Pagination]}
             spaceBetween={20}
-          
-            // autoplay={{
-            // delay: 2500,            
-            // disableOnInteraction: false,
-            // }}
-
-           
             grabCursor={true}
             centeredSlides={true}
-           
             speed={1000} 
             breakpoints={{
             400: { slidesPerView: 1 },
@@ -56,27 +58,41 @@ function Banner() {
             1000: { slidesPerView: 3 },
             }}
             navigation={true}
-           
             loop={true}
         >
             {sliderData.map((card) => (
             <SwiperSlide key={card.id}>             
-                <div>               
+                <div className='relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300'>               
                     <img
                         src={card.image}
                         alt={card.title}
-                        className='rounded-lg'
-                    />         
-
+                        className='rounded-lg w-full h-64 md:h-72 object-cover group-hover:scale-105 transition-transform duration-300'
+                    />
+                    {/* Image overlay with title */}
+                    <div className='absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg'>
+                        <div className='absolute bottom-4 left-4 text-white'>
+                            <h3 className='text-lg font-semibold'>{card.title}</h3>
+                        </div>
+                    </div>
                 </div>
             </SwiperSlide>
             ))}
         </Swiper>
         </div>
         
-        <div className='flex justify-end pt-4 md:pt-8 pb-5 md:pb-8'>
-            <button onClick={gotoGallery}
-            className='px-2 py-1 shadow-lg border border-gray-300 bg-gradient-to-r from-orange-200 to-red-200 text-sm md:text-base font-semibold text-primary rounded-md'>View more</button>
+        {/* Enhanced View More Button Section */}
+        <div className='flex justify-center pt-8 md:pt-12 pb-5 md:pb-8'>
+            <button 
+                onClick={gotoGallery}
+                className='group px-6 py-3 shadow-lg border border-orange-300/50 bg-gradient-to-r from-orange-500 via-red-500 to-orange-600 hover:from-orange-600 hover:via-red-600 hover:to-orange-700 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl'
+            >
+                <span className='flex items-center gap-2'>
+                    View More Gallery
+                    <svg className='w-4 h-4 group-hover:translate-x-1 transition-transform duration-300' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                        <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M9 5l7 7-7 7' />
+                    </svg>
+                </span>
+            </button>
         </div>
 
     </div>   
