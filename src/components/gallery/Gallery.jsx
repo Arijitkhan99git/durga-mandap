@@ -16,7 +16,7 @@ function Gallery() {
     const data =[
        
         {
-            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758283397/Durga_Maa_Full_frame_g7epf2.jpg',
+            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758392089/Durga_Maa_Full_frame_qgzevn.jpg',
             title:'Full frame'
         },
         {
