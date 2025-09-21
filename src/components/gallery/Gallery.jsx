@@ -39,6 +39,14 @@ function Gallery() {
             img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758277502/DSC_4875_1_pkrq7o.jpg',
             title:'kashful 1'
         },
+        {   
+            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758423111/starting1_ekwzeo.jpg',
+            title:'cele1'
+        },
+        {
+            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758423112/starting2_eg42c4.jpg',
+            title:'cele2'
+        },
         {
             img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758276878/durgapuja_2024_1_o27fhj.jpg',
             title:'Vasan'
@@ -47,11 +55,10 @@ function Gallery() {
             img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758276873/durgapuja_2024_2_hbyxxi.jpg',
             title:'Vasahn 2'
         },
-        
         {
-            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758277502/DSC_4915_2_yzrcxl.jpg',
-            title:'kashful 2'
-        },
+            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388291/WhatsApp_Image_2025-09-19_at_18.14.55_3ad848a4_ujxmt8.jpg',
+            title:'old year'
+        },    
         {
             img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758281876/IMG-20250825-WA0040_gtogal.jpg',
             title:'Vasahn 3'
@@ -74,6 +81,15 @@ function Gallery() {
         },
           
         {
+            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388291/WhatsApp_Image_2025-09-19_at_18.16.15_d658789c_mfn49f.jpg',
+            title:'front 1'
+        },
+         {
+            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388291/WhatsApp_Image_2025-09-19_at_18.10.21_f3545185_pe3pat.jpg',
+            title:'front 2'
+        },
+
+        {
             img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388292/WhatsApp_Image_2025-09-19_at_18.06.25_cc379908_zaadtz.jpg',
             title:'group 1'
         },
@@ -82,19 +98,11 @@ function Gallery() {
             img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388291/WhatsApp_Image_2025-09-20_at_08.25.21_491ad821_ut0w9z.jpg',
             title:'group 2'
         },
-         {
-            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388291/WhatsApp_Image_2025-09-19_at_18.16.15_d658789c_mfn49f.jpg',
-            title:'front 1'
-        },
-         {
-            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388291/WhatsApp_Image_2025-09-19_at_18.10.21_f3545185_pe3pat.jpg',
-            title:'front 2'
-        },
-         {
-            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388291/WhatsApp_Image_2025-09-19_at_18.14.55_3ad848a4_ujxmt8.jpg',
-            title:'old me'
-        },
         
+         {
+            img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758277502/DSC_4915_2_yzrcxl.jpg',
+            title:'kashful 2'
+        },
         {
             img:'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758275971/DSC_4544_1_1_vqbnjz.jpg',
             title:'Making 1'

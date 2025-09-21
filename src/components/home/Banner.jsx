@@ -17,11 +17,12 @@ function Banner() {
     }
 
     const sliderData = [
-        { id: 1, title: "Mahalaya", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758392089/Durga_Maa_Full_frame_qgzevn.jpg' },
-        { id: 2, title: "Maha Panchami", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758281524/IMG-20250825-WA0007_kkip83.jpg' },
-        { id: 3, title: "Maha Shashthi", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758275970/DSC_4531_1_b6rmgl.jpg' },
-        { id: 4, title: "Mahalaya", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758277502/DSC_4875_1_pkrq7o.jpg' },
-        { id: 5, title: "Maha Panchami", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758276057/DSC_4488_k4h2zf.jpg' }
+        { id: 1, title: "Last Year Puja", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758392089/Durga_Maa_Full_frame_qgzevn.jpg' },
+        { id: 2, title: "Trapon", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758281524/IMG-20250825-WA0007_kkip83.jpg' },
+        { id: 3, title: "Making1", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758275970/DSC_4531_1_b6rmgl.jpg' },
+        { id: 4, title: "Kashful", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758277502/DSC_4875_1_pkrq7o.jpg' },
+        { id: 5, title: "Old One", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758388291/WhatsApp_Image_2025-09-19_at_18.14.55_3ad848a4_ujxmt8.jpg' },
+        { id: 6, title: "Making2", image: 'https://res.cloudinary.com/dsi5vhuqh/image/upload/v1758276057/DSC_4488_k4h2zf.jpg' }
       ];
 
     
