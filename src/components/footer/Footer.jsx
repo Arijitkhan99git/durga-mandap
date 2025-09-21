@@ -28,7 +28,7 @@ function Footer() {
               {/* organized by */}
             <div className='text-white space-y-2 md:space-y-4 flex flex-col items-center md:items-start'>
                 <h1 className='text-lg md:text-2xl poppins-semibold '>Organized By</h1>
-                <h1 className='text-lg  md:text-3xl font-bold text-center text-orange-600'>বাঁকাদহ সর্বজনীন দুর্গোৎসব কমিটি</h1>
+                <h1 className='text-lg  md:text-3xl font-bold text-center text-orange-600'>বাঁকাদহ সার্বজনীন দুর্গাপূজা কমিটি</h1>
                 <div className='gap-2 flex items-center'>
                   <Facebook size={35} strokeWidth={1.5} className='bg-primary p-1 rounded-full'/>
                   <a href="https://www.facebook.com/groups/1222397804612307/?ref=share&mibextid=NSMWBT"

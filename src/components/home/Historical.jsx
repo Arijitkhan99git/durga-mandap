@@ -12,7 +12,7 @@ function Historical() {
   return (
     <>
     <div className='w-full  overflow-x-clip mt-[4rem] pb-5 md:pb-10 flex justify-center items-center'>
-        <div className='w-full max-w-7xl py-4 md:py-6 px-12 mb-4'>
+        <div className='w-full max-w-7xl py-4 md:py-6 px-8 md:px-12 mb-4'>
 
             
         <motion.div 
@@ -34,13 +34,13 @@ function Historical() {
                 <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-amber-600 to-transparent"></div>
               </div>
               
-              <h2 className='text-3xl md:text-5xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-red-600 bg-clip-text text-transparent py-4 md:py-8'>
+              <h2 className='text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-700 via-orange-600 to-red-600 bg-clip-text text-transparent py-4 md:py-8'>
                 ইতিহাসের পটে
               </h2>
               
               {/* Centennial Tribute */}
               <div className='bg-gradient-to-r from-amber-100/50 to-orange-100/70 border-l-4 border-amber-500 rounded-r-2xl p-8 mx-auto max-w-5xl shadow-xl mb-8'>
-                <h3 className='text-2xl md:text-3xl font-bold text-primary mb-4'>
+                <h3 className='text-xl md:text-2xl font-bold text-primary mb-4'>
                   নেতাজি সুভাষচন্দ্র বসুর বার্মার মান্দালয় জেলে দুর্গাপূজার শতবর্ষ
                 </h3>
                 <p className='text-ld md:text-xl font-semibold text-red-600'>
@@ -99,7 +99,7 @@ function Historical() {
                     <div className="pt-4">
                       <div className="flex items-center gap-3 mb-4">
                         <div className="text-2xl">🏛️</div>
-                        <h4 className='text-xl font-bold text-red-800'>বার্মার মান্দালয় জেল</h4>
+                        <h4 className='text-lg md:text-xl font-bold text-red-800'>বার্মার মান্দালয় জেল</h4>
                       </div>
                       <p className='text-gray-700 font-medium'>
                         প্রথমবার জেলের ভেতর মহাসমারোহে দূর্গা পূজা সম্পন্ন করেন
@@ -117,7 +117,7 @@ function Historical() {
                     <div className="pt-4">
                       <div className="flex items-center gap-3 mb-4">
                         <div className="text-2xl">🏛️</div>
-                        <h4 className='text-xl font-bold text-orange-800'>কলকাতার প্রেসিডেন্সি জেল</h4>
+                        <h4 className='text-lg md:text-xl font-bold text-orange-800'>কলকাতার প্রেসিডেন্সি জেল</h4>
                       </div>
                       <p className='text-gray-700 font-medium'>
                         দ্বিতীয়বার জেলের ভেতর মহাসমারোহে দূর্গা পূজা সম্পন্ন করেন
@@ -187,7 +187,7 @@ function Historical() {
                       </div>
              
                       <div className='bg-white/90 backdrop-blur-sm border border-orange-200/50 rounded-2xl p-6 shadow-lg transform hover:scale-105 transition-all duration-300 '>
-                        <h4 className='text-xl font-bold text-orange-700 mb-2'>{item.event}</h4>
+                        <h4 className='text-lg font-bold text-orange-700 mb-2'>{item.event}</h4>
                         <p className='text-gray-600 font-medium'>নেতাজির নেতৃত্বে সাংস্কৃতিক ও আধ্যাত্মিক জাগরণ</p>                
                     </div>        
                   </motion.div>

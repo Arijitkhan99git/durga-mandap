@@ -19,7 +19,7 @@ function PujoTheme() {
     
   return (
      <div className='w-full  overflow-x-clip mt-[4rem]  flex justify-center items-center'>
-        <div className='w-full max-w-7xl py-4 md:py-6 px-12 mb-4'>
+        <div className='w-full max-w-7xl py-4 md:py-6 px-8 md:px-12 md:mb-4'>
       {/* Ten Mahavidyas Section */}
         <motion.div 
           initial={{ y: 50, opacity: 0 }} 
@@ -44,12 +44,12 @@ function PujoTheme() {
                 <div className="w-20 h-[2px] bg-gradient-to-r from-transparent via-orange-500 to-transparent"></div>
               </div>
               
-              <h2 className='text-2xl md:text-4xl  font-bold bg-gradient-to-r from-orange-700 via-red-600 to-orange-700 bg-clip-text text-transparent p-6'>
+              <h2 className='text-3xl md:text-4xl leading-relaxed font-bold bg-gradient-to-r from-orange-700 via-red-600 to-orange-700 bg-clip-text text-transparent p-6'>
                 এবারের থিম দশ মহাবিদ্যা
               </h2>
               
               {/* Sacred Quote */}
-              <div className='bg-white/70 backdrop-blur-sm border border-orange-200/50 rounded-2xl p-8 mx-auto max-w-4xl shadow-xl'>
+              <div className='bg-white/70 backdrop-blur-sm border border-orange-200/50 rounded-2xl p-5 md:p-8 mx-auto max-w-4xl shadow-xl'>
                 <p className='text-lg md:text-xl font-semibold text-gray-800 mb-4 leading-relaxed'>
                   ইত্থং যদা যদা বাধা দানবোত্থা ভবিষ্যতি।<br/>
                   তদা তদাবতীর্যাহং করিষ্যাম্যরিসংক্ষয়ম্।।
@@ -72,7 +72,7 @@ function PujoTheme() {
                   whileInView={{ scale: 1, opacity: 1 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className='group relative bg-white/80 backdrop-blur-sm border border-orange-200/50 rounded-xl p-3 md:p-4 
+                  className='group relative bg-white/80 backdrop-blur-sm border border-orange-200/50 rounded-xl p-3 md:p-4
                   shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105'>
                   
                  
